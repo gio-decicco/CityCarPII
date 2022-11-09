@@ -202,7 +202,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -228,8 +227,8 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
         <Top>1.51553cm</Top>
-        <Height>3.56447cm</Height>
-        <Width>16.51cm</Width>
+        <Height>3.56446cm</Height>
+        <Width>16.50999cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -254,7 +253,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value> PRODUCTOS</Value>
+                  <Value> Productos</Value>
                   <Style>
                     <FontSize>22pt</FontSize>
                   </Style>

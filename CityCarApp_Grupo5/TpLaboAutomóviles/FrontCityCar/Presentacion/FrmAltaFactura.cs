@@ -56,6 +56,7 @@ namespace CityCarFrontEnd.Presentacion
             await cargarComboCliente();
             await cargarComboProducto();
             TxtDescuento.Text = "0";
+            GroupDetalles.Enabled = false;
         }
 
         private async Task cargarProximoId()
@@ -238,6 +239,7 @@ namespace CityCarFrontEnd.Presentacion
         private void BtnListo_Click(object sender, EventArgs e)
         {
             GroupFactura.Enabled = false;
+            GroupDetalles.Enabled = true;
         }
     }
 }

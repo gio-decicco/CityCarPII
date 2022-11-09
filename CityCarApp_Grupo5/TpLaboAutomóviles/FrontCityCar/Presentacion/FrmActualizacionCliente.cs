@@ -25,13 +25,13 @@ namespace CityCarFrontEnd.Presentacion
             servicio = fabrica.CrearServiceCliente();
         }
 
-        private void FrmActualizacionCliente_Load(object sender, EventArgs e)
+        private async void FrmActualizacionCliente_Load(object sender, EventArgs e)
         {
-            cargarLista();
-            cargarComboBarrios();
+            await cargarLista();
+            await cargarComboBarrios();
         }
 
-        private async void cargarComboBarrios()
+        private async Task cargarComboBarrios()
         {
             var data = await ClienteSingleton.Instancia().GetAsync("http://localhost:5106/getBarrios");
             List<Barrio> lst = JsonConvert.DeserializeObject<List<Barrio>>(data);
@@ -41,7 +41,7 @@ namespace CityCarFrontEnd.Presentacion
             CboBarrios.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
-        private async void cargarLista()
+        private async Task cargarLista()
         {
             LstClientes.DataSource = null;
             var data = await ClienteSingleton.Instancia().GetAsync("http://localhost:5106/getClientes");

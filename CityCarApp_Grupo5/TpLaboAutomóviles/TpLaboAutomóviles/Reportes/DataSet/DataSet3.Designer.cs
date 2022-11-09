@@ -847,7 +847,7 @@ SELECT descripcion AS Producto, precio AS Precio, idProducto FROM Productos WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TpLaboAutomóviles.Properties.Settings.Default.automotrizConnectionString1;
+            this._connection.ConnectionString = global::TpLaboAutomóviles.Properties.Settings.Default.automotrizConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -857,7 +857,7 @@ SELECT descripcion AS Producto, precio AS Precio, idProducto FROM Productos WHER
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT descripcion AS Producto, precio AS Precio, idProducto\r\nFROM     Productos\r" +
-                "\nWHERE  precio = @xprecio";
+                "\nWHERE  precio <= @xprecio";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@xprecio", global::System.Data.SqlDbType.Money, 8, global::System.Data.ParameterDirection.Input, 0, 0, "Precio", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }

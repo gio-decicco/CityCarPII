@@ -91,7 +91,10 @@ namespace CityCarFrontEnd.Presentacion
                     DtgDetalles.Rows.Add(new object[] { detalle.Producto.IdProducto, detalle.Producto.Descripcion, detalle.Cantidad, detalle.PrecioUnitario });
                     subtotal += detalle.PrecioUnitario * detalle.Cantidad;
                 }
-                textBox1.Text = Convert.ToString(subtotal);
+
+                TxtSubtotal.Text = "$ " + Convert.ToString(subtotal);
+                double total = subtotal - Convert.ToInt32(TxtDescuento.Text) * subtotal / 100;
+                TxtTotal.Text = "$ " + Convert.ToString(total);
             }
         }
 
