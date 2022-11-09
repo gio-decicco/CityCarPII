@@ -98,7 +98,7 @@
             this.panelAcercade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(162)))), ((int)(((byte)(78)))));
             this.panelAcercade.Controls.Add(this.btnDesarrolladores);
             this.panelAcercade.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAcercade.Location = new System.Drawing.Point(0, 467);
+            this.panelAcercade.Location = new System.Drawing.Point(0, 634);
             this.panelAcercade.Name = "panelAcercade";
             this.panelAcercade.Size = new System.Drawing.Size(250, 55);
             this.panelAcercade.TabIndex = 10;
@@ -129,7 +129,7 @@
             this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
             this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.Location = new System.Drawing.Point(0, 417);
+            this.button18.Location = new System.Drawing.Point(0, 584);
             this.button18.Name = "button18";
             this.button18.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button18.Size = new System.Drawing.Size(250, 50);
@@ -144,7 +144,7 @@
             this.panelFactura.Controls.Add(this.btnConsultarFactura);
             this.panelFactura.Controls.Add(this.btnNuevaFactura);
             this.panelFactura.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFactura.Location = new System.Drawing.Point(0, 317);
+            this.panelFactura.Location = new System.Drawing.Point(0, 484);
             this.panelFactura.Name = "panelFactura";
             this.panelFactura.Size = new System.Drawing.Size(250, 100);
             this.panelFactura.TabIndex = 4;
@@ -192,7 +192,7 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 267);
+            this.button3.Location = new System.Drawing.Point(0, 434);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button3.Size = new System.Drawing.Size(250, 50);
@@ -207,7 +207,7 @@
             this.panelSoporteSubMenu.Controls.Add(this.btnCliente);
             this.panelSoporteSubMenu.Controls.Add(this.btnProducto);
             this.panelSoporteSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSoporteSubMenu.Location = new System.Drawing.Point(0, 167);
+            this.panelSoporteSubMenu.Location = new System.Drawing.Point(0, 334);
             this.panelSoporteSubMenu.Name = "panelSoporteSubMenu";
             this.panelSoporteSubMenu.Size = new System.Drawing.Size(250, 100);
             this.panelSoporteSubMenu.TabIndex = 2;
@@ -256,7 +256,7 @@
             this.btnSoporte.ForeColor = System.Drawing.Color.White;
             this.btnSoporte.Image = ((System.Drawing.Image)(resources.GetObject("btnSoporte.Image")));
             this.btnSoporte.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSoporte.Location = new System.Drawing.Point(0, 117);
+            this.btnSoporte.Location = new System.Drawing.Point(0, 284);
             this.btnSoporte.Name = "btnSoporte";
             this.btnSoporte.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnSoporte.Size = new System.Drawing.Size(250, 50);
@@ -271,7 +271,7 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(250, 117);
+            this.panelLogo.Size = new System.Drawing.Size(250, 284);
             this.panelLogo.TabIndex = 0;
             // 
             // lblHora
@@ -281,7 +281,7 @@
             this.lblHora.Font = new System.Drawing.Font("Arial Black", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblHora.Location = new System.Drawing.Point(28, 27);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(134, 48);
+            this.lblHora.Size = new System.Drawing.Size(165, 59);
             this.lblHora.TabIndex = 0;
             this.lblHora.Text = "label1";
             // 
@@ -313,7 +313,7 @@
             // 
             // frmPrincipal2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1032, 1055);
             this.Controls.Add(this.panel1);

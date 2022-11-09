@@ -46,3 +46,15 @@ C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\refint\CityCarBackend.dll
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.pdb
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\ref\CityCarBackend.dll
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\bin\Debug\net6.0\CityCarBackend.deps.json
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\bin\Debug\net6.0\CityCarBackend.dll
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\bin\Debug\net6.0\CityCarBackend.pdb
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.csproj.AssemblyReference.cache
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.AssemblyInfoInputs.cache
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.AssemblyInfo.cs
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.csproj.CoreCompileInputs.cache
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.dll
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\refint\CityCarBackend.dll
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\CityCarBackend.pdb
+D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\CityCarLib\obj\Debug\net6.0\ref\CityCarBackend.dll

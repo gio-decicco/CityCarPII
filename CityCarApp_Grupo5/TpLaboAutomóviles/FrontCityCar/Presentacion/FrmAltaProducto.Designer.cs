@@ -41,7 +41,7 @@
             // 
             this.lblTituloAltaProd.AutoSize = true;
             this.lblTituloAltaProd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTituloAltaProd.Location = new System.Drawing.Point(92, 32);
+            this.lblTituloAltaProd.Location = new System.Drawing.Point(120, 23);
             this.lblTituloAltaProd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTituloAltaProd.Name = "lblTituloAltaProd";
             this.lblTituloAltaProd.Size = new System.Drawing.Size(223, 31);
@@ -51,66 +51,81 @@
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(27, 100);
+            this.lblDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblDescripcion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripcion.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblDescripcion.Location = new System.Drawing.Point(58, 97);
             this.lblDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(87, 20);
+            this.lblDescripcion.Size = new System.Drawing.Size(96, 20);
             this.lblDescripcion.TabIndex = 1;
             this.lblDescripcion.Text = "Descrpicion";
             // 
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(27, 151);
+            this.lblPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblPrecio.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPrecio.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblPrecio.Location = new System.Drawing.Point(58, 148);
             this.lblPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(50, 20);
+            this.lblPrecio.Size = new System.Drawing.Size(56, 20);
             this.lblPrecio.TabIndex = 4;
             this.lblPrecio.Text = "Precio";
             // 
             // txtDescrpicion
             // 
-            this.txtDescrpicion.Location = new System.Drawing.Point(159, 95);
+            this.txtDescrpicion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDescrpicion.Location = new System.Drawing.Point(179, 95);
             this.txtDescrpicion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDescrpicion.Name = "txtDescrpicion";
-            this.txtDescrpicion.Size = new System.Drawing.Size(220, 27);
+            this.txtDescrpicion.Size = new System.Drawing.Size(247, 26);
             this.txtDescrpicion.TabIndex = 6;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(159, 146);
+            this.txtPrecio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPrecio.Location = new System.Drawing.Point(179, 146);
             this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(220, 27);
+            this.txtPrecio.Size = new System.Drawing.Size(247, 26);
             this.txtPrecio.TabIndex = 7;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(31, 225);
+            this.btnAceptar.BackColor = System.Drawing.Color.Linen;
+            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAceptar.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnAceptar.Location = new System.Drawing.Point(76, 225);
             this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(100, 35);
+            this.btnAceptar.Size = new System.Drawing.Size(127, 44);
             this.btnAceptar.TabIndex = 11;
             this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(279, 225);
+            this.btnCancelar.BackColor = System.Drawing.Color.Linen;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnCancelar.Location = new System.Drawing.Point(249, 225);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(100, 35);
+            this.btnCancelar.Size = new System.Drawing.Size(127, 44);
             this.btnCancelar.TabIndex = 12;
             this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // FrmAltaProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 298);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(485, 298);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtPrecio);
@@ -118,8 +133,11 @@
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.lblTituloAltaProd);
+            this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ForeColor = System.Drawing.Color.DarkBlue;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmAltaProducto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAltaProducto";
             this.Load += new System.EventHandler(this.FrmAltaProducto_Load);
             this.ResumeLayout(false);
