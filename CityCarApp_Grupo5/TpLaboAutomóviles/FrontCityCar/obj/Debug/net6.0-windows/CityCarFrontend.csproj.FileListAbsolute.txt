@@ -449,3 +449,4 @@ D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCa
 D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\CityCarFrontend.genruntimeconfig.cache
 D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\ref\CityCarFrontend.dll
 D:\Daniel\Documentos\♥DANIEL\•Programacion UTN\CityCar_Rep\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\CityCarFrontend.Properties.Resources.resources
+C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\CityCarFrontend.Properties.Resources.resources

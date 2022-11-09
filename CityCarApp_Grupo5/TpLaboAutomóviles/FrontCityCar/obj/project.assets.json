@@ -361,15 +361,6 @@
         "runtime": {
           "bin/placeholder/CityCarBackend.dll": {}
         }
-      },
-      "TpLaboAutomóviles/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/TpLaboAutomóviles.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TpLaboAutomóviles.dll": {}
-        }
       }
     }
   },
@@ -845,11 +836,6 @@
       "type": "project",
       "path": "../CityCarLib/CityCarBackend.csproj",
       "msbuildProject": "../CityCarLib/CityCarBackend.csproj"
-    },
-    "TpLaboAutomóviles/1.0.0": {
-      "type": "project",
-      "path": "../TpLaboAutomóviles/TpLaboAutomóviles.csproj",
-      "msbuildProject": "../TpLaboAutomóviles/TpLaboAutomóviles.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -860,24 +846,28 @@
       "Microsoft.ReportingServices.ReportViewerControl.Winforms >= 150.1537.0",
       "Newtonsoft.Json >= 13.0.1",
       "System.Data.SqlClient >= 4.8.4",
-      "TpLaboAutomóviles >= 1.0.0",
       "WinFormAnimation >= 1.6.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
+    "C:\\Users\\Gio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Daniel\\Documentos\\♥DANIEL\\•Programacion UTN\\CityCar_Rep\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
+      "projectUniqueName": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
       "projectName": "CityCarFrontend",
-      "projectPath": "D:\\Daniel\\Documentos\\♥DANIEL\\•Programacion UTN\\CityCar_Rep\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "D:\\Daniel\\Documentos\\♥DANIEL\\•Programacion UTN\\CityCar_Rep\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\obj\\",
+      "projectPath": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
+      "packagesPath": "C:\\Users\\Gio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -891,11 +881,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\Daniel\\Documentos\\♥DANIEL\\•Programacion UTN\\CityCar_Rep\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj": {
-              "projectPath": "D:\\Daniel\\Documentos\\♥DANIEL\\•Programacion UTN\\CityCar_Rep\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj"
-            },
-            "D:\\Daniel\\Documentos\\♥DANIEL\\•Programacion UTN\\CityCar_Rep\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\TpLaboAutomóviles\\TpLaboAutomóviles.csproj": {
-              "projectPath": "D:\\Daniel\\Documentos\\♥DANIEL\\•Programacion UTN\\CityCar_Rep\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\TpLaboAutomóviles\\TpLaboAutomóviles.csproj"
+            "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj": {
+              "projectPath": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj"
             }
           }
         }

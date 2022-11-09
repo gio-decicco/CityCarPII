@@ -33,6 +33,7 @@ namespace CityCarFrontEnd.Presentacion
 
         private async Task cargarLista()
         {
+            LstProductos.DataSource = null;
             List<Producto> lst;
             var data = await ClienteSingleton.Instancia().GetAsync("http://localhost:5106/GetProductos");
             lst = JsonConvert.DeserializeObject<List<Producto>>(data);
@@ -162,6 +163,7 @@ namespace CityCarFrontEnd.Presentacion
         private void BtnNuevo_Click(object sender, EventArgs e)
         {
             new FrmAltaProducto(this.serviceProducto).ShowDialog();
+            cargarLista();
         }
     }
 }

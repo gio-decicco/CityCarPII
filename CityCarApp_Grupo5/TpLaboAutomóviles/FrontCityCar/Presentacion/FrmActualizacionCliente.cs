@@ -43,12 +43,10 @@ namespace CityCarFrontEnd.Presentacion
 
         private async void cargarLista()
         {
-           
+            LstClientes.DataSource = null;
             var data = await ClienteSingleton.Instancia().GetAsync("http://localhost:5106/getClientes");
             List<Cliente> lst= JsonConvert.DeserializeObject<List<Cliente>>(data);
             LstClientes.DataSource = lst; ;
-            
-               
         }
 
         private void LstClientes_SelectedIndexChanged(object sender, EventArgs e)
@@ -188,6 +186,7 @@ namespace CityCarFrontEnd.Presentacion
         private void BtnNuevo_Click(object sender, EventArgs e)
         {
             new FrmAltaCliente(this.servicio).ShowDialog();
+            cargarLista();
         }
     }
 }
