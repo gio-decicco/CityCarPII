@@ -14,7 +14,6 @@
           "Microsoft.ReportingServices.ReportViewerControl.Winforms": "150.1537.0",
           "Newtonsoft.Json": "13.0.1",
           "System.Data.SqlClient": "4.8.4",
-          "TpLaboAutomóviles": "1.0.0",
           "WinFormAnimation": "1.6.0.4"
         },
         "runtime": {
@@ -299,11 +298,6 @@
         "runtime": {
           "CityCarBackend.dll": {}
         }
-      },
-      "TpLaboAutomóviles/1.0.0": {
-        "runtime": {
-          "TpLaboAutomóviles.exe": {}
-        }
       }
     }
   },
@@ -419,11 +413,6 @@
       "hashPath": "winformanimation.1.6.0.4.nupkg.sha512"
     },
     "CityCarBackend/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TpLaboAutomóviles/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -283,10 +283,6 @@ C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\CityCarFrontend.dll
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\refint\CityCarFrontend.dll
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\CityCarFrontend.pdb
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\SqlServerTypes\x64\msvcr120.dll
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\SqlServerTypes\x86\msvcr120.dll
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\SqlServerTypes\x86\SqlServerSpatial140.dll
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\CityCarFrontend.exe
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\CityCarFrontend.deps.json
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\CityCarFrontend.runtimeconfig.json
@@ -349,10 +345,7 @@ C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\CityCarBackend.dll
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\TpLaboAutomóviles.exe
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\CityCarBackend.pdb
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\TpLaboAutomóviles.pdb
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\bin\Debug\net6.0-windows\TpLaboAutomóviles.exe.config
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\CityCarFrontend.csproj.CopyComplete
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\CityCarFrontend.genruntimeconfig.cache
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\FrontCityCar\obj\Debug\net6.0-windows\ref\CityCarFrontend.dll

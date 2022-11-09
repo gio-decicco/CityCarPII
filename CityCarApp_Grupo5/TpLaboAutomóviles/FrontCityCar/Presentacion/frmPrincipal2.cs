@@ -8,8 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CityCarBackEnd.Servicios.Factory;
-using TpLaboAutomóviles.Reportes.Forms;
-using TpLaboAutomóviles;
 
 namespace CityCarFrontEnd.Presentacion
 {
@@ -168,7 +166,7 @@ namespace CityCarFrontEnd.Presentacion
 
         private void btnReporte1_Click(object sender, EventArgs e)
         {
-            new Form6().ShowDialog();
+
         }
 
         private void btnReporte5_Click(object sender, EventArgs e)
