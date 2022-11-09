@@ -45,6 +45,15 @@ namespace CityCarFrontEnd.Presentacion
             {
                 factura.QuitarDetalle(DtgDetalles.CurrentRow.Index);
                 DtgDetalles.Rows.Remove(DtgDetalles.CurrentRow);
+
+                double subtotal = 0;
+                foreach (Detalle_Facturas detalle in factura.lDetalles)
+                {
+                    subtotal += detalle.PrecioUnitario * detalle.Cantidad;
+                }
+                TxtSubtotal.Text = "$ " + Convert.ToString(subtotal);
+                double total = subtotal - Convert.ToInt32(TxtDescuento.Text) * subtotal / 100;
+                TxtTotal.Text = "$ " + Convert.ToString(total);
             }
         }
 

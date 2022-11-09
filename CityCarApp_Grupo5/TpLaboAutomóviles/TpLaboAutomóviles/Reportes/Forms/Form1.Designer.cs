@@ -67,7 +67,7 @@
             this.reportViewer1.Location = new System.Drawing.Point(0, -2);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(801, 459);
+            this.reportViewer1.Size = new System.Drawing.Size(911, 574);
             this.reportViewer1.TabIndex = 0;
             // 
             // vis_cliente_barrioTableAdapter
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(910, 565);
             this.Controls.Add(this.reportViewer1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

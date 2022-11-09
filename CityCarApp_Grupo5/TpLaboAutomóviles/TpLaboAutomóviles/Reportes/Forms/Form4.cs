@@ -25,9 +25,17 @@ namespace TpLaboAutomóviles.Reportes.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string barrio;
-            barrio = txtBarrio.Text;
-            this.dataTable1TableAdapter.Fill(this.dataSet4.DataTable1,barrio);
+
+            if (txtBarrio.Text == string.Empty)
+            {
+                MessageBox.Show("Por favor, ingrese un valor !!");
+            } else
+            {
+                string barrio;
+                barrio = txtBarrio.Text;
+                this.dataTable1TableAdapter.Fill(this.dataSet4.DataTable1, barrio);
+            }
+
           
             this.reportViewer1.RefreshReport();
         }

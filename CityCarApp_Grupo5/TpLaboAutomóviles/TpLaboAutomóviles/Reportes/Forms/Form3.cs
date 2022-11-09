@@ -24,10 +24,19 @@ namespace TpLaboAutomóviles.Reportes.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int valor;
-            valor = Convert.ToInt32(txtPrecio.Text);
-            this.productosTableAdapter.Fill(this.dataSet3.Productos,valor);
-            this.reportViewer1.RefreshReport();
+            if (txtPrecio.Text == string.Empty)
+            {
+                MessageBox.Show("Por favor, ingrese un valor !!");
+            }
+            else
+            {
+                int valor;
+                valor = Convert.ToInt32(txtPrecio.Text);
+                this.productosTableAdapter.Fill(this.dataSet3.Productos, valor);
+                this.reportViewer1.RefreshReport();
+
+            }
+
 
         }
     }

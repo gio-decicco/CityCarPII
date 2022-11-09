@@ -209,11 +209,11 @@
     <Compile Include="Reportes\Forms\Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Reportes\Forms\Form6.cs">
+    <Compile Include="Reportes\Forms\Reportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reportes\Forms\Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="Reportes\Forms\Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </Compile>
     <Compile Include="Servicios\Factory\Concreta\ServiceFactoryImp.cs" />
     <Compile Include="Servicios\Factory\ServiceFactory.cs" />
@@ -287,8 +287,8 @@
     <EmbeddedResource Include="Reportes\Forms\Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reportes\Forms\Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="Reportes\Forms\Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

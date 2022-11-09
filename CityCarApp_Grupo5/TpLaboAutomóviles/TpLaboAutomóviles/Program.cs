@@ -20,7 +20,7 @@ namespace TpLaboAutomóviles
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form form = new Form6();
+            Form form = new Reportes.Forms.Reportes();
             Application.Run(form);
         }
     }

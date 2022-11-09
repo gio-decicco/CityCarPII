@@ -657,9 +657,9 @@ C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.Reportes.Forms.Form3.resources
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.Reportes.Forms.Form4.resources
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.Reportes.Forms.Form5.resources
-C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.Reportes.Forms.Form6.resources
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.csproj.GenerateResource.cache
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.csproj.CoreCompileInputs.cache
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.csproj.CopyComplete
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.exe
 C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.pdb
+C:\Users\Gio\Desktop\Tecnicatura\LCII\TPI_PII_Grupo5\CityCarPII\CityCarApp_Grupo5\TpLaboAutomóviles\TpLaboAutomóviles\obj\Debug\TpLaboAutomóviles.Reportes.Forms.Reportes.resources
