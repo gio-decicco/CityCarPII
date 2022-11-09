@@ -19,13 +19,10 @@ namespace CityCarFrontEnd.Presentacion
     public partial class FrmActualizacionCliente : Form
     {
         IServiceCliente servicio;
-        
-        //teoricamente no va así, hay que ponerlo en el principal
-        public FrmActualizacionCliente(IServiceCliente servicio/*ServiceFactory fabrica*/)
+        public FrmActualizacionCliente(ServiceFactory fabrica)
         {
             InitializeComponent();
-            //servicio = fabrica.CrearServiceCliente();
-            this.servicio = servicio;
+            servicio = fabrica.CrearServiceCliente();
         }
 
         private void FrmActualizacionCliente_Load(object sender, EventArgs e)
@@ -186,6 +183,11 @@ namespace CityCarFrontEnd.Presentacion
                 return false;
             }
             return true;
+        }
+
+        private void BtnNuevo_Click(object sender, EventArgs e)
+        {
+            new FrmAltaCliente(this.servicio).ShowDialog();
         }
     }
 }

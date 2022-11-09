@@ -19,11 +19,11 @@ namespace CityCarFrontEnd.Presentacion
     public partial class FrmActualizacionProducto : Form
     {
         IServiceProducto serviceProducto;
-        public FrmActualizacionProducto(IServiceProducto servicio/*ServiceFactory fabrica*/)
+        public FrmActualizacionProducto(ServiceFactory fabrica/*ServiceFactory fabrica*/)
         {
             InitializeComponent();
             //serviceProducto = fabrica.CrearServiceProducto();
-            serviceProducto = servicio;
+            serviceProducto = fabrica.CrearServiceProducto();
         }
 
         private async void FrmActualizacionProducto_Load(object sender, EventArgs e)
@@ -157,6 +157,11 @@ namespace CityCarFrontEnd.Presentacion
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void BtnNuevo_Click(object sender, EventArgs e)
+        {
+            new FrmAltaProducto(this.serviceProducto).ShowDialog();
         }
     }
 }

@@ -41,22 +41,23 @@
             this.lblCalle = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblTituloAltaCliente = new System.Windows.Forms.Label();
-            this.BtnConsultar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cboBarrio
             // 
             this.cboBarrio.FormattingEnabled = true;
-            this.cboBarrio.Location = new System.Drawing.Point(83, 224);
+            this.cboBarrio.Location = new System.Drawing.Point(111, 345);
+            this.cboBarrio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboBarrio.Name = "cboBarrio";
-            this.cboBarrio.Size = new System.Drawing.Size(187, 21);
+            this.cboBarrio.Size = new System.Drawing.Size(248, 28);
             this.cboBarrio.TabIndex = 26;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(228, 301);
+            this.btnCancelar.Location = new System.Drawing.Point(304, 463);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(100, 35);
             this.btnCancelar.TabIndex = 25;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -64,9 +65,10 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(12, 301);
+            this.btnAceptar.Location = new System.Drawing.Point(16, 463);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(100, 35);
             this.btnAceptar.TabIndex = 24;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -74,103 +76,102 @@
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(83, 189);
+            this.txtAltura.Location = new System.Drawing.Point(111, 291);
+            this.txtAltura.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(187, 20);
+            this.txtAltura.Size = new System.Drawing.Size(248, 27);
             this.txtAltura.TabIndex = 23;
             // 
             // txtCalle
             // 
-            this.txtCalle.Location = new System.Drawing.Point(83, 152);
+            this.txtCalle.Location = new System.Drawing.Point(111, 234);
+            this.txtCalle.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCalle.Name = "txtCalle";
-            this.txtCalle.Size = new System.Drawing.Size(187, 20);
+            this.txtCalle.Size = new System.Drawing.Size(248, 27);
             this.txtCalle.TabIndex = 22;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(83, 112);
+            this.txtApellido.Location = new System.Drawing.Point(111, 172);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(187, 20);
+            this.txtApellido.Size = new System.Drawing.Size(248, 27);
             this.txtApellido.TabIndex = 21;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(83, 76);
+            this.txtNombre.Location = new System.Drawing.Point(111, 117);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(187, 20);
+            this.txtNombre.Size = new System.Drawing.Size(248, 27);
             this.txtNombre.TabIndex = 20;
             // 
             // lblBarrio
             // 
             this.lblBarrio.AutoSize = true;
-            this.lblBarrio.Location = new System.Drawing.Point(43, 227);
+            this.lblBarrio.Location = new System.Drawing.Point(57, 349);
+            this.lblBarrio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBarrio.Name = "lblBarrio";
-            this.lblBarrio.Size = new System.Drawing.Size(34, 13);
+            this.lblBarrio.Size = new System.Drawing.Size(49, 20);
             this.lblBarrio.TabIndex = 19;
             this.lblBarrio.Text = "Barrio";
             // 
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(33, 115);
+            this.lblPrecio.Location = new System.Drawing.Point(44, 177);
+            this.lblPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(44, 13);
+            this.lblPrecio.Size = new System.Drawing.Size(66, 20);
             this.lblPrecio.TabIndex = 18;
             this.lblPrecio.Text = "Apellido";
             // 
             // lblAltura
             // 
             this.lblAltura.AutoSize = true;
-            this.lblAltura.Location = new System.Drawing.Point(43, 192);
+            this.lblAltura.Location = new System.Drawing.Point(57, 295);
+            this.lblAltura.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAltura.Name = "lblAltura";
-            this.lblAltura.Size = new System.Drawing.Size(34, 13);
+            this.lblAltura.Size = new System.Drawing.Size(49, 20);
             this.lblAltura.TabIndex = 17;
             this.lblAltura.Text = "Altura";
             // 
             // lblCalle
             // 
             this.lblCalle.AutoSize = true;
-            this.lblCalle.Location = new System.Drawing.Point(47, 155);
+            this.lblCalle.Location = new System.Drawing.Point(63, 238);
+            this.lblCalle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCalle.Name = "lblCalle";
-            this.lblCalle.Size = new System.Drawing.Size(30, 13);
+            this.lblCalle.Size = new System.Drawing.Size(42, 20);
             this.lblCalle.TabIndex = 16;
             this.lblCalle.Text = "Calle";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(33, 79);
+            this.lblNombre.Location = new System.Drawing.Point(44, 122);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.Size = new System.Drawing.Size(64, 20);
             this.lblNombre.TabIndex = 15;
             this.lblNombre.Text = "Nombre";
             // 
             // lblTituloAltaCliente
             // 
             this.lblTituloAltaCliente.AutoSize = true;
-            this.lblTituloAltaCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloAltaCliente.Location = new System.Drawing.Point(58, 27);
+            this.lblTituloAltaCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTituloAltaCliente.Location = new System.Drawing.Point(77, 42);
+            this.lblTituloAltaCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTituloAltaCliente.Name = "lblTituloAltaCliente";
-            this.lblTituloAltaCliente.Size = new System.Drawing.Size(160, 25);
+            this.lblTituloAltaCliente.Size = new System.Drawing.Size(198, 31);
             this.lblTituloAltaCliente.TabIndex = 14;
             this.lblTituloAltaCliente.Text = "Nuevo Cliente";
             // 
-            // BtnConsultar
-            // 
-            this.BtnConsultar.Location = new System.Drawing.Point(120, 301);
-            this.BtnConsultar.Name = "BtnConsultar";
-            this.BtnConsultar.Size = new System.Drawing.Size(75, 23);
-            this.BtnConsultar.TabIndex = 27;
-            this.BtnConsultar.Text = "Consultar";
-            this.BtnConsultar.UseVisualStyleBackColor = true;
-            this.BtnConsultar.Click += new System.EventHandler(this.BtnConsultar_Click);
-            // 
             // FrmAltaCliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 336);
-            this.Controls.Add(this.BtnConsultar);
+            this.ClientSize = new System.Drawing.Size(421, 517);
             this.Controls.Add(this.cboBarrio);
             this.Controls.Add(this.lblCalle);
             this.Controls.Add(this.lblNombre);
@@ -184,6 +185,7 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.lblTituloAltaCliente);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmAltaCliente";
             this.Text = "FrmAltaCliente";
             this.Load += new System.EventHandler(this.FrmAltaCliente_Load);
@@ -207,6 +209,5 @@
         private System.Windows.Forms.Label lblCalle;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblTituloAltaCliente;
-        private System.Windows.Forms.Button BtnConsultar;
     }
 }

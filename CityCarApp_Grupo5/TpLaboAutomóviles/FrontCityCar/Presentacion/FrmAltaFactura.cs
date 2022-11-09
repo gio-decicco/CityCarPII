@@ -231,7 +231,7 @@ namespace CityCarFrontEnd.Presentacion
 
         private void BtnNuevoCliente_Click(object sender, EventArgs e)
         {
-            new FrmAltaCliente(this.fabrica).ShowDialog();
+            new FrmAltaCliente(this.servicioCliente).ShowDialog();
             cargarComboCliente();
         }
 

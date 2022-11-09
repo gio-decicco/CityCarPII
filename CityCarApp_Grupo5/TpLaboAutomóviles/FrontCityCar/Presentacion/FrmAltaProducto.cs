@@ -21,10 +21,10 @@ namespace CityCarFrontEnd.Presentacion
     public partial class FrmAltaProducto : Form
     {
         IServiceProducto servicio;
-        public FrmAltaProducto(ServiceFactory fabrica)
+        public FrmAltaProducto(IServiceProducto servicio)
         {
             InitializeComponent();
-            servicio = fabrica.CrearServiceProducto();
+            this.servicio = servicio;
         }
         
         private void FrmAltaProducto_Load(object sender, EventArgs e)
@@ -55,11 +55,6 @@ namespace CityCarFrontEnd.Presentacion
         {
             txtDescrpicion.Text = "";
             txtPrecio.Text = "";
-        }
-
-        private void BtnModificar_Click(object sender, EventArgs e)
-        {
-            new FrmActualizacionProducto(servicio).ShowDialog();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

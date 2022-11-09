@@ -23,10 +23,10 @@ namespace CityCarFrontEnd.Presentacion
         IServiceCliente servicio;
         
         
-        public FrmAltaCliente(ServiceFactory fabrica)
+        public FrmAltaCliente(IServiceCliente servicio)
         {
             InitializeComponent();
-            servicio = fabrica.CrearServiceCliente();
+            this.servicio = servicio;
         }
         private async void btnAceptar_Click(object sender, EventArgs e)
         {
@@ -78,11 +78,6 @@ namespace CityCarFrontEnd.Presentacion
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void BtnConsultar_Click(object sender, EventArgs e)
-        {
-            new FrmActualizacionCliente(servicio).ShowDialog(); //mete este en el principal
         }
     }
 }

@@ -871,11 +871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gio\\Desktop\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
+      "projectUniqueName": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
       "projectName": "CityCarFrontend",
-      "projectPath": "C:\\Users\\Gio\\Desktop\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
+      "projectPath": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\CityCarFrontend.csproj",
       "packagesPath": "C:\\Users\\Gio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gio\\Desktop\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\obj\\",
+      "outputPath": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\FrontCityCar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -896,11 +896,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Gio\\Desktop\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj": {
-              "projectPath": "C:\\Users\\Gio\\Desktop\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj"
+            "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj": {
+              "projectPath": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\CityCarLib\\CityCarBackend.csproj"
             },
-            "C:\\Users\\Gio\\Desktop\\CityCarApp_Grupo5\\TpLaboAutomóviles\\TpLaboAutomóviles\\TpLaboAutomóviles.csproj": {
-              "projectPath": "C:\\Users\\Gio\\Desktop\\CityCarApp_Grupo5\\TpLaboAutomóviles\\TpLaboAutomóviles\\TpLaboAutomóviles.csproj"
+            "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\TpLaboAutomóviles\\TpLaboAutomóviles.csproj": {
+              "projectPath": "C:\\Users\\Gio\\Desktop\\Tecnicatura\\LCII\\TPI_PII_Grupo5\\CityCarPII\\CityCarApp_Grupo5\\TpLaboAutomóviles\\TpLaboAutomóviles\\TpLaboAutomóviles.csproj"
             }
           }
         }

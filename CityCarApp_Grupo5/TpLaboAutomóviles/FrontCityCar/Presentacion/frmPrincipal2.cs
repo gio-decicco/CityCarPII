@@ -62,14 +62,14 @@ namespace CityCarFrontEnd.Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new FrmAltaProducto(this.factory).ShowDialog();
+            new FrmActualizacionProducto(this.factory).ShowDialog();
 
             HideSubMenu();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new FrmAltaCliente(this.factory).ShowDialog();
+            new FrmActualizacionCliente(this.factory).ShowDialog();
             HideSubMenu();
         }
 
